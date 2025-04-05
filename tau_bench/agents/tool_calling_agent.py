@@ -1,6 +1,7 @@
 # Copyright Sierra
 
 import json
+import copy
 from litellm import completion
 from typing import List, Optional, Dict, Any
 
@@ -8,6 +9,12 @@ from tau_bench.agents.base import Agent
 from tau_bench.envs.base import Env
 from tau_bench.types import SolveResult, Action, RESPOND_ACTION_NAME
 
+
+def _add_prompt_caching(messages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    new_messages = copy.deepcopy(messages)
+    for i in reversed(range(len(new_messages) - 3, len(new_messages))):
+        new_messages[i]["cache_control"] = {"type": "ephemeral"}
+    return new_messages
 
 class ToolCallingAgent(Agent):
     def __init__(
@@ -38,7 +45,7 @@ class ToolCallingAgent(Agent):
         ]
         for _ in range(max_num_steps):
             res = completion(
-                messages=messages,
+                messages=_add_prompt_caching(messages),
                 model=self.model,
                 custom_llm_provider=self.provider,
                 tools=self.tools_info,
