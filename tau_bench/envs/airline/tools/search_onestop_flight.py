@@ -18,7 +18,7 @@ class SearchOnestopFlight(Tool):
                         and flight1["destination"] == flight2["origin"]
                     ):
                         date2 = (
-                            f"2024-05-{int(date[-2:])+1}"
+                            f"2035-05-{int(date[-2:])+1}"
                             if "+1" in flight1["scheduled_arrival_time_est"]
                             else date
                         )
@@ -65,7 +65,7 @@ class SearchOnestopFlight(Tool):
                         },
                         "date": {
                             "type": "string",
-                            "description": "The date of the flight in the format 'YYYY-MM-DD', such as '2024-05-01'.",
+                            "description": "The date of the flight in the format 'YYYY-MM-DD', such as '2035-05-01'.",
                         },
                     },
                     "required": ["origin", "destination", "date"],

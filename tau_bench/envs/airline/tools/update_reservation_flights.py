@@ -121,7 +121,7 @@ class UpdateReservationFlights(Tool):
                                     },
                                     "date": {
                                         "type": "string",
-                                        "description": "The date for the flight in the format 'YYYY-MM-DD', such as '2024-05-01'.",
+                                        "description": "The date for the flight in the format 'YYYY-MM-DD', such as '2035-05-01'.",
                                     },
                                 },
                                 "required": ["flight_number", "date"],

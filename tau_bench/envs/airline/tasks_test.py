@@ -15,8 +15,8 @@ TASKS = [
                     "flight_type": "one_way",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT136", "date": "2024-05-20"},
-                        {"flight_number": "HAT039", "date": "2024-05-20"},
+                        {"flight_number": "HAT136", "date": "2035-05-20"},
+                        {"flight_number": "HAT039", "date": "2035-05-20"},
                     ],
                     "passengers": [
                         {"first_name": "Mia", "last_name": "Li", "dob": "1990-04-05"}
@@ -53,8 +53,8 @@ TASKS = [
                     "reservation_id": "JG7FMM",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT028", "date": "2024-05-21"},
-                        {"flight_number": "HAT277", "date": "2024-05-21"},
+                        {"flight_number": "HAT028", "date": "2035-05-21"},
+                        {"flight_number": "HAT277", "date": "2035-05-21"},
                     ],
                     "payment_id": "credit_card_2929732",
                 },
@@ -65,10 +65,10 @@ TASKS = [
                     "reservation_id": "2FBBAH",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT080", "date": "2024-05-28"},
-                        {"flight_number": "HAT076", "date": "2024-05-28"},
-                        {"flight_number": "HAT255", "date": "2024-05-30"},
-                        {"flight_number": "HAT148", "date": "2024-05-30"},
+                        {"flight_number": "HAT080", "date": "2035-05-28"},
+                        {"flight_number": "HAT076", "date": "2035-05-28"},
+                        {"flight_number": "HAT255", "date": "2035-05-30"},
+                        {"flight_number": "HAT148", "date": "2035-05-30"},
                     ],
                     "payment_id": "gift_card_3481935",
                 },
@@ -79,8 +79,8 @@ TASKS = [
                     "reservation_id": "X7BYG1",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT232", "date": "2024-05-24"},
-                        {"flight_number": "HAT228", "date": "2024-05-24"},
+                        {"flight_number": "HAT232", "date": "2035-05-24"},
+                        {"flight_number": "HAT228", "date": "2035-05-24"},
                     ],
                     "payment_id": "credit_card_2929732",
                 },
@@ -91,8 +91,8 @@ TASKS = [
                     "reservation_id": "EQ1G6C",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT084", "date": "2024-05-23"},
-                        {"flight_number": "HAT175", "date": "2024-05-23"},
+                        {"flight_number": "HAT084", "date": "2035-05-23"},
+                        {"flight_number": "HAT175", "date": "2035-05-23"},
                     ],
                     "payment_id": "gift_card_6847880",
                 },
@@ -103,8 +103,8 @@ TASKS = [
                     "reservation_id": "BOH180",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT276", "date": "2024-05-21"},
-                        {"flight_number": "HAT279", "date": "2024-05-22"},
+                        {"flight_number": "HAT276", "date": "2035-05-21"},
+                        {"flight_number": "HAT279", "date": "2035-05-22"},
                     ],
                     "payment_id": "credit_card_9525117",
                 },
@@ -123,10 +123,10 @@ TASKS = [
                     "reservation_id": "OBUT9V",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT078", "date": "2024-05-27"},
-                        {"flight_number": "HAT118", "date": "2024-05-27"},
-                        {"flight_number": "HAT290", "date": "2024-05-27"},
-                        {"flight_number": "HAT175", "date": "2024-05-27"},
+                        {"flight_number": "HAT078", "date": "2035-05-27"},
+                        {"flight_number": "HAT118", "date": "2035-05-27"},
+                        {"flight_number": "HAT290", "date": "2035-05-27"},
+                        {"flight_number": "HAT175", "date": "2035-05-27"},
                     ],
                     "payment_id": "gift_card_6276644",
                 },
@@ -154,8 +154,8 @@ TASKS = [
                     "reservation_id": "FQ8APE",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT056", "date": "2024-05-25"},
-                        {"flight_number": "HAT138", "date": "2024-05-25"},
+                        {"flight_number": "HAT056", "date": "2035-05-25"},
+                        {"flight_number": "HAT138", "date": "2035-05-25"},
                     ],
                     "payment_id": "gift_card_8190333",
                 },
@@ -196,8 +196,8 @@ TASKS = [
                     "reservation_id": "FQ8APE",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT056", "date": "2024-05-25"},
-                        {"flight_number": "HAT138", "date": "2024-05-25"},
+                        {"flight_number": "HAT056", "date": "2035-05-25"},
+                        {"flight_number": "HAT138", "date": "2035-05-25"},
                     ],
                     "payment_id": "gift_card_8190333",
                 },
@@ -238,8 +238,8 @@ TASKS = [
                     "reservation_id": "M05KNL",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT110", "date": "2024-05-24"},
-                        {"flight_number": "HAT172", "date": "2024-05-24"},
+                        {"flight_number": "HAT110", "date": "2035-05-24"},
+                        {"flight_number": "HAT172", "date": "2035-05-24"},
                     ],
                     "payment_id": "gift_card_8887175",
                 },
@@ -258,8 +258,8 @@ TASKS = [
                     "reservation_id": "M05KNL",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT110", "date": "2024-05-24"},
-                        {"flight_number": "HAT172", "date": "2024-05-24"},
+                        {"flight_number": "HAT110", "date": "2035-05-24"},
+                        {"flight_number": "HAT172", "date": "2035-05-24"},
                     ],
                     "payment_id": "gift_card_8887175",
                 },
@@ -282,9 +282,9 @@ TASKS = [
                     "flight_type": "round_trip",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT023", "date": "2024-05-26"},
-                        {"flight_number": "HAT204", "date": "2024-05-28"},
-                        {"flight_number": "HAT100", "date": "2024-05-28"},
+                        {"flight_number": "HAT023", "date": "2035-05-26"},
+                        {"flight_number": "HAT204", "date": "2035-05-28"},
+                        {"flight_number": "HAT100", "date": "2035-05-28"},
                     ],
                     "passengers": [
                         {
@@ -332,9 +332,9 @@ TASKS = [
                     "flight_type": "round_trip",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT023", "date": "2024-05-26"},
-                        {"flight_number": "HAT204", "date": "2024-05-28"},
-                        {"flight_number": "HAT100", "date": "2024-05-28"},
+                        {"flight_number": "HAT023", "date": "2035-05-26"},
+                        {"flight_number": "HAT204", "date": "2035-05-28"},
+                        {"flight_number": "HAT100", "date": "2035-05-28"},
                     ],
                     "passengers": [
                         {
@@ -363,9 +363,9 @@ TASKS = [
                     "flight_type": "round_trip",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT023", "date": "2024-05-26"},
-                        {"flight_number": "HAT204", "date": "2024-05-28"},
-                        {"flight_number": "HAT100", "date": "2024-05-28"},
+                        {"flight_number": "HAT023", "date": "2035-05-26"},
+                        {"flight_number": "HAT204", "date": "2035-05-28"},
+                        {"flight_number": "HAT100", "date": "2035-05-28"},
                     ],
                     "passengers": [
                         {
@@ -392,9 +392,9 @@ TASKS = [
                     "flight_type": "round_trip",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT023", "date": "2024-05-26"},
-                        {"flight_number": "HAT204", "date": "2024-05-28"},
-                        {"flight_number": "HAT100", "date": "2024-05-28"},
+                        {"flight_number": "HAT023", "date": "2035-05-26"},
+                        {"flight_number": "HAT204", "date": "2035-05-28"},
+                        {"flight_number": "HAT100", "date": "2035-05-28"},
                     ],
                     "passengers": [
                         {
@@ -430,8 +430,8 @@ TASKS = [
                     "flight_type": "round_trip",
                     "cabin": "basic_economy",
                     "flights": [
-                        {"flight_number": "HAT069", "date": "2024-05-20"},
-                        {"flight_number": "HAT276", "date": "2024-05-25"},
+                        {"flight_number": "HAT069", "date": "2035-05-20"},
+                        {"flight_number": "HAT276", "date": "2035-05-25"},
                     ],
                     "passengers": [
                         {"first_name": "Mia", "last_name": "Kim", "dob": "1965-06-09"}
@@ -462,8 +462,8 @@ TASKS = [
                     "flight_type": "one_way",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT097", "date": "2024-05-17"},
-                        {"flight_number": "HAT251", "date": "2024-05-17"},
+                        {"flight_number": "HAT097", "date": "2035-05-17"},
+                        {"flight_number": "HAT251", "date": "2035-05-17"},
                     ],
                     "passengers": [
                         {
@@ -513,11 +513,11 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "YAX4DR"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "BOS", "destination": "MCO", "date": "2024-05-18"},
+                kwargs={"origin": "BOS", "destination": "MCO", "date": "2035-05-18"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "MCO", "destination": "MSP", "date": "2024-05-19"},
+                kwargs={"origin": "MCO", "destination": "MSP", "date": "2035-05-19"},
             ),
             Action(
                 name="calculate",
@@ -581,8 +581,8 @@ TASKS = [
                     "reservation_id": "VA5SGQ",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT169", "date": "2024-05-17"},
-                        {"flight_number": "HAT033", "date": "2024-05-19"},
+                        {"flight_number": "HAT169", "date": "2035-05-17"},
+                        {"flight_number": "HAT033", "date": "2035-05-19"},
                     ],
                     "payment_id": "credit_card_8003957",
                 },
@@ -607,7 +607,7 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "1N99U6"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "LAS", "destination": "IAH", "date": "2024-05-19"},
+                kwargs={"origin": "LAS", "destination": "IAH", "date": "2035-05-19"},
             ),
             Action(
                 name="update_reservation_flights",
@@ -615,8 +615,8 @@ TASKS = [
                     "reservation_id": "1N99U6",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT266", "date": "2024-05-19"},
-                        {"flight_number": "HAT112", "date": "2024-05-27"},
+                        {"flight_number": "HAT266", "date": "2035-05-19"},
+                        {"flight_number": "HAT112", "date": "2035-05-27"},
                     ],
                     "payment_id": "gift_card_5634230",
                 },
@@ -640,7 +640,7 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "OWZ4XL"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "EWR", "destination": "LAX", "date": "2024-05-21"},
+                kwargs={"origin": "EWR", "destination": "LAX", "date": "2035-05-21"},
             ),
             Action(
                 name="update_reservation_flights",
@@ -648,8 +648,8 @@ TASKS = [
                     "reservation_id": "OWZ4XL",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT202", "date": "2024-05-21"},
-                        {"flight_number": "HAT232", "date": "2024-05-21"},
+                        {"flight_number": "HAT202", "date": "2035-05-21"},
+                        {"flight_number": "HAT232", "date": "2035-05-21"},
                     ],
                     "payment_id": "credit_card_9659780",
                 },
@@ -659,7 +659,7 @@ TASKS = [
                 kwargs={
                     "reservation_id": "OWZ4XL",
                     "cabin": "economy",
-                    "flights": [{"flight_number": "HAT041", "date": "2024-05-21"}],
+                    "flights": [{"flight_number": "HAT041", "date": "2035-05-21"}],
                     "payment_id": "credit_card_9659780",
                 },
             ),
@@ -674,11 +674,11 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "HXDUBJ"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "IAH", "destination": "SFO", "date": "2024-05-19"},
+                kwargs={"origin": "IAH", "destination": "SFO", "date": "2035-05-19"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "SFO", "destination": "IAH", "date": "2024-05-21"},
+                kwargs={"origin": "SFO", "destination": "IAH", "date": "2035-05-21"},
             ),
             Action(
                 name="update_reservation_flights",
@@ -686,8 +686,8 @@ TASKS = [
                     "reservation_id": "HXDUBJ",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT072", "date": "2024-05-19"},
-                        {"flight_number": "HAT278", "date": "2024-05-23"},
+                        {"flight_number": "HAT072", "date": "2035-05-19"},
+                        {"flight_number": "HAT278", "date": "2035-05-23"},
                     ],
                     "payment_id": "gift_card_6941833",
                 },
@@ -725,8 +725,8 @@ TASKS = [
                     "flight_type": "one_way",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT069", "date": "2024-05-24"},
-                        {"flight_number": "HAT258", "date": "2024-05-24"},
+                        {"flight_number": "HAT069", "date": "2035-05-24"},
+                        {"flight_number": "HAT258", "date": "2035-05-24"},
                     ],
                     "passengers": [
                         {
@@ -755,11 +755,11 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "M20IZO"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "JFK", "destination": "ATL", "date": "2024-05-22"},
+                kwargs={"origin": "JFK", "destination": "ATL", "date": "2035-05-22"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "ATL", "destination": "MCO", "date": "2024-05-22"},
+                kwargs={"origin": "ATL", "destination": "MCO", "date": "2035-05-22"},
             ),
             Action(name="calculate", kwargs={"expression": "430 + 412 - (136 + 109)"}),
             Action(
@@ -768,8 +768,8 @@ TASKS = [
                     "reservation_id": "M20IZO",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT268", "date": "2024-05-22"},
-                        {"flight_number": "HAT010", "date": "2024-05-22"},
+                        {"flight_number": "HAT268", "date": "2035-05-22"},
+                        {"flight_number": "HAT010", "date": "2035-05-22"},
                     ],
                     "payment_id": "credit_card_9074831",
                 },
@@ -786,11 +786,11 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "M20IZO"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "JFK", "destination": "ATL", "date": "2024-05-22"},
+                kwargs={"origin": "JFK", "destination": "ATL", "date": "2035-05-22"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "ATL", "destination": "MCO", "date": "2024-05-22"},
+                kwargs={"origin": "ATL", "destination": "MCO", "date": "2035-05-22"},
             ),
             Action(name="calculate", kwargs={"expression": "430 + 412 - (136 + 109)"}),
         ],
@@ -875,7 +875,7 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "WUNA5K"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "ORD", "destination": "PHL", "date": "2024-05-26"},
+                kwargs={"origin": "ORD", "destination": "PHL", "date": "2035-05-26"},
             ),
             Action(
                 name="book_reservation",
@@ -885,7 +885,7 @@ TASKS = [
                     "destination": "PHL",
                     "flight_type": "one_way",
                     "cabin": "economy",
-                    "flights": [{"flight_number": "HAT271", "date": "2024-05-26"}],
+                    "flights": [{"flight_number": "HAT271", "date": "2035-05-26"}],
                     "passengers": [
                         {
                             "first_name": "Sophia",
@@ -922,43 +922,43 @@ TASKS = [
             Action(name="get_reservation_details", kwargs={"reservation_id": "WUNA5K"}),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "MSP", "destination": "EWR", "date": "2024-05-25"},
+                kwargs={"origin": "MSP", "destination": "EWR", "date": "2035-05-25"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "EWR", "destination": "MSP", "date": "2024-05-27"},
+                kwargs={"origin": "EWR", "destination": "MSP", "date": "2035-05-27"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "MSP", "destination": "EWR", "date": "2024-05-21"},
+                kwargs={"origin": "MSP", "destination": "EWR", "date": "2035-05-21"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "EWR", "destination": "CLT", "date": "2024-05-21"},
+                kwargs={"origin": "EWR", "destination": "CLT", "date": "2035-05-21"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "LAX", "destination": "EWR", "date": "2024-05-23"},
+                kwargs={"origin": "LAX", "destination": "EWR", "date": "2035-05-23"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "EWR", "destination": "CLT", "date": "2024-05-24"},
+                kwargs={"origin": "EWR", "destination": "CLT", "date": "2035-05-24"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "CLT", "destination": "EWR", "date": "2024-05-24"},
+                kwargs={"origin": "CLT", "destination": "EWR", "date": "2035-05-24"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "EWR", "destination": "LAX", "date": "2024-05-25"},
+                kwargs={"origin": "EWR", "destination": "LAX", "date": "2035-05-25"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "JFK", "destination": "ATL", "date": "2024-05-24"},
+                kwargs={"origin": "JFK", "destination": "ATL", "date": "2035-05-24"},
             ),
             Action(
                 name="search_direct_flight",
-                kwargs={"origin": "ORD", "destination": "PHL", "date": "2024-05-10"},
+                kwargs={"origin": "ORD", "destination": "PHL", "date": "2035-05-10"},
             ),
             Action(name="cancel_reservation", kwargs={"reservation_id": "S61CZX"}),
             Action(
@@ -967,8 +967,8 @@ TASKS = [
                     "reservation_id": "NM1VX1",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT300", "date": "2024-05-25"},
-                        {"flight_number": "HAT208", "date": "2024-05-27"},
+                        {"flight_number": "HAT300", "date": "2035-05-25"},
+                        {"flight_number": "HAT208", "date": "2035-05-27"},
                     ],
                     "payment_id": "credit_card_4196779",
                 },
@@ -978,7 +978,7 @@ TASKS = [
                 kwargs={
                     "reservation_id": "H8Q05L",
                     "cabin": "business",
-                    "flights": [{"flight_number": "HAT268", "date": "2024-05-24"}],
+                    "flights": [{"flight_number": "HAT268", "date": "2035-05-24"}],
                     "payment_id": "credit_card_4196779",
                 },
             ),
@@ -988,8 +988,8 @@ TASKS = [
                     "reservation_id": "KC18K6",
                     "cabin": "business",
                     "flights": [
-                        {"flight_number": "HAT300", "date": "2024-05-21"},
-                        {"flight_number": "HAT215", "date": "2024-05-21"},
+                        {"flight_number": "HAT300", "date": "2035-05-21"},
+                        {"flight_number": "HAT215", "date": "2035-05-21"},
                     ],
                     "payment_id": "credit_card_4196779",
                 },
@@ -1012,8 +1012,8 @@ TASKS = [
                     "reservation_id": "XEHM4B",
                     "cabin": "economy",
                     "flights": [
-                        {"flight_number": "HAT005", "date": "2024-05-20"},
-                        {"flight_number": "HAT178", "date": "2024-05-30"},
+                        {"flight_number": "HAT005", "date": "2035-05-20"},
+                        {"flight_number": "HAT178", "date": "2035-05-30"},
                     ],
                     "payment_id": "credit_card_2408938",
                 },

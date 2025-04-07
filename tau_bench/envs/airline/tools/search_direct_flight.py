@@ -41,7 +41,7 @@ class SearchDirectFlight(Tool):
                         },
                         "date": {
                             "type": "string",
-                            "description": "The date of the flight in the format 'YYYY-MM-DD', such as '2024-01-01'.",
+                            "description": "The date of the flight in the format 'YYYY-MM-DD', such as '2035-01-01'.",
                         },
                     },
                     "required": ["origin", "destination", "date"],

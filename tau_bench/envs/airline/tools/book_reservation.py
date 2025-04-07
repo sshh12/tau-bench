@@ -44,7 +44,7 @@ class BookReservation(Tool):
             "flights": deepcopy(flights),
             "passengers": passengers,
             "payment_history": payment_methods,
-            "created_at": "2024-05-15T15:00:00",
+            "created_at": "2035-05-15T15:00:00",
             "total_baggages": total_baggages,
             "nonfree_baggages": nonfree_baggages,
             "insurance": insurance,
@@ -149,7 +149,7 @@ class BookReservation(Tool):
                                     },
                                     "date": {
                                         "type": "string",
-                                        "description": "The date for the flight in the format 'YYYY-MM-DD', such as '2024-05-01'.",
+                                        "description": "The date for the flight in the format 'YYYY-MM-DD', such as '2035-05-01'.",
                                     },
                                 },
                                 "required": ["flight_number", "date"],
