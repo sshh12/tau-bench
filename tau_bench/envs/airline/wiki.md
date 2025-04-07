@@ -68,3 +68,49 @@ As an airline agent, you can help users book, modify, or cancel flight reservati
 - If the user is silver/gold member or has travel insurance or flies business, and complains about delayed flights in a reservation and wants to change or cancel the reservation, the agent can offer a certificate as a gesture after confirming the facts and changing or cancelling the reservation, with the amount being $50 times the number of passengers.
 
 - Do not proactively offer these unless the user complains about the situation and explicitly asks for some compensation. Do not compensate if the user is regular member and has no travel insurance and flies (basic) economy.
+
+## History of the Airline
+
+### Founding and Early Years (1950s-1960s)
+
+The airline's story begins in 1954, when entrepreneur Thomas Meridian, a former military pilot with a passion for aviation, founded Meridian Airways with just two Douglas DC-3 aircraft. Operating from a small regional airport, the airline initially offered limited service between three Midwestern cities. Despite skepticism from larger carriers and financial institutions, Meridian secured backing from local business leaders who recognized the economic potential of improved regional air service.
+
+By 1958, the airline had expanded to serve twelve destinations across the Midwest and had acquired its first four-engine aircraft, allowing for longer routes. This period coincided with the dawn of the jet age, and Meridian made a bold move in 1962 by purchasing its first jet aircraft, joining the technological revolution that was transforming commercial aviation.
+
+The 1960s marked a period of rapid growth. The airline rebranded as TransContinental Airways in 1965, reflecting its expanding route network that now reached both coasts. By the end of the decade, the airline employed over 3,000 people and operated a fleet of 28 aircraft, serving 36 destinations nationwide.
+
+### Expansion and Innovation (1970s-1980s)
+
+The 1970s brought significant challenges with the oil crisis driving fuel costs to unprecedented heights. While many smaller airlines folded during this period, TransContinental's management implemented innovative fuel conservation measures and strategic route optimization that allowed it to weather the storm. The airline became known for its operational efficiency, a reputation that would serve it well in the decades to come.
+
+In 1974, TransContinental made history by hiring Rebecca Chen as its first female pilot, well ahead of many competitors. This commitment to diversity would become a hallmark of the company culture. The airline also pioneered an employee profit-sharing program in 1976, fostering loyalty and reducing turnover during turbulent economic times.
+
+The Airline Deregulation Act of 1978 transformed the industry landscape, and TransContinental was positioned to capitalize on the new competitive environment. By 1982, the airline had expanded into international routes, first serving major Canadian cities, then adding destinations in Mexico and the Caribbean. A strategic partnership with a European carrier in 1985 opened transatlantic routes, marking TransContinental's emergence as a global airline.
+
+The 1980s also saw technological innovations, with TransContinental becoming one of the first airlines to implement a computerized reservation system. This investment in technology positioned the airline at the forefront of the digital revolution in travel booking and passenger service.
+
+### Global Reach and Challenges (1990s-2000s)
+
+The early 1990s brought recession and the Gulf War, which severely impacted the entire airline industry. TransContinental responded by forming its first strategic alliances with carriers in Asia and Europe, expanding its global reach while sharing operational costs. In 1994, the airline underwent a comprehensive fleet modernization program, investing in more fuel-efficient aircraft that reduced both costs and environmental impact.
+
+The airline's commitment to sustainability took further shape in 1997 when it established an environmental department tasked with reducing carbon emissions and developing other green initiatives, long before such concerns became industry standards. This forward-thinking approach attracted environmentally conscious travelers and corporate clients, creating a distinct market advantage.
+
+The turn of the millennium brought unprecedented challenges. The September 11, 2001 terrorist attacks created an industry-wide crisis. TransContinental's strong financial position prior to the attacks allowed it to avoid the bankruptcies that plagued many competitors, though the airline was forced to downsize operations temporarily and defer planned expansions.
+
+By 2005, recovery was well underway, with the airline introducing its first ultra-long-haul routes to Asia. The following year, TransContinental completed a merger with SunCoast Airways, a significant regional carrier with complementary routes, substantially increasing its domestic network.
+
+### Digital Transformation and Modern Era (2010s-Present)
+
+The 2010s marked TransContinental's digital transformation. In 2011, the airline introduced its first mobile app, allowing passengers to book flights, check in, and access boarding passes from their smartphones. Investment in customer data analytics enabled personalization of the travel experience, leading to significant improvements in customer satisfaction scores.
+
+In 2014, the airline underwent its most recent rebranding, adopting its current name and refreshed visual identity to reflect its modern, global outlook. The same year, it joined one of the major global airline alliances, further extending its reach through codeshare agreements with international partners.
+
+The decade also brought sustainability back to the forefront, with the airline setting ambitious carbon reduction targets in 2016. Fleet modernization continued with orders for next-generation aircraft featuring dramatically improved fuel efficiency. Solar power installations at headquarters and maintenance facilities further reduced the company's carbon footprint.
+
+When the COVID-19 pandemic struck in 2020, the airline faced perhaps its greatest challenge. With global travel effectively halted, the company pivoted to cargo operations, converting several passenger aircraft to transport medical supplies and other essential goods. This agility allowed the airline to retain many employees and maintain operational readiness for the return of passenger travel.
+
+Recovery began in 2021 as vaccination rates climbed and travel restrictions eased. The airline emerged with a reimagined business model emphasizing flexibility, cleanliness, and sustainable operations. New touchless technology throughout the travel experience addressed passenger health concerns while improving efficiency.
+
+Today, the airline stands as one of the industry's most respected carriers, known for operational excellence, customer service, and innovation. With a global network serving over 200 destinations, a modern fleet of more than 300 aircraft, and a workforce of approximately 65,000 dedicated professionals, the company continues to write new chapters in its remarkable history.
+
+The airline's journey reflects the broader evolution of commercial aviation—from the propeller era through the jet age and into today's digital, interconnected world. Through economic cycles, technological revolutions, and global challenges, the airline has demonstrated resilience and adaptability while maintaining its founding commitment to connecting people and places with safety, reliability, and warmth.
