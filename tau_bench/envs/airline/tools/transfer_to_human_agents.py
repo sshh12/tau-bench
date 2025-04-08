@@ -8,6 +8,7 @@ class TransferToHumanAgents(Tool):
     @staticmethod
     def invoke(
         data: Dict[str, Any],
+        explanation: str,
         summary: str,
     ) -> str:
         return "Transfer successful"
@@ -22,13 +23,17 @@ class TransferToHumanAgents(Tool):
                 "parameters": {
                     "type": "object",
                     "properties": {
-                        "summary": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
+                         "summary": {
                             "type": "string",
                             "description": "A summary of the user's issue.",
                         },
                     },
                     "required": [
-                        "summary",
+                        "summary"
                     ],
                 },
             },

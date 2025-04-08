@@ -9,6 +9,7 @@ class UpdateReservationBaggages(Tool):
     @staticmethod
     def invoke(
         data: Dict[str, Any],
+        explanation: str,
         reservation_id: str,
         total_baggages: int,
         nonfree_baggages: int,
@@ -56,6 +57,10 @@ class UpdateReservationBaggages(Tool):
                 "parameters": {
                     "type": "object",
                     "properties": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
                         "reservation_id": {
                             "type": "string",
                             "description": "The reservation ID, such as 'ZFA04Y'.",

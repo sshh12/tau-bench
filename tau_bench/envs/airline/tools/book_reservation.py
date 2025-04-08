@@ -10,6 +10,7 @@ class BookReservation(Tool):
     @staticmethod
     def invoke(
         data: Dict[str, Any],
+        explanation: str,
         user_id: str,
         origin: str,
         destination: str,
@@ -113,6 +114,10 @@ class BookReservation(Tool):
                 "parameters": {
                     "type": "object",
                     "properties": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
                         "user_id": {
                             "type": "string",
                             "description": "The ID of the user to book the reservation, such as 'sara_doe_496'.",

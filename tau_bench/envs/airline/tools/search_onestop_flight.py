@@ -7,7 +7,7 @@ from tau_bench.envs.tool import Tool
 
 class SearchOnestopFlight(Tool):
     @staticmethod
-    def invoke(data: Dict[str, Any], origin: str, destination: str, date: str) -> str:
+    def invoke(data: Dict[str, Any], explanation: str, origin: str, destination: str, date: str) -> str:
         flights = data["flights"]
         results = []
         for flight1 in flights.values():
@@ -55,6 +55,10 @@ class SearchOnestopFlight(Tool):
                 "parameters": {
                     "type": "object",
                     "properties": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
                         "origin": {
                             "type": "string",
                             "description": "The origin city airport in three letters, such as 'JFK'.",

@@ -6,7 +6,7 @@ from tau_bench.envs.tool import Tool
 
 class Calculate(Tool):
     @staticmethod
-    def invoke(data: Dict[str, Any], expression: str) -> str:
+    def invoke(data: Dict[str, Any], explanation: str, expression: str) -> str:
         if not all(char in "0123456789+-*/(). " for char in expression):
             return "Error: invalid characters in expression"
         try:
@@ -24,6 +24,10 @@ class Calculate(Tool):
                 "parameters": {
                     "type": "object",
                     "properties": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
                         "expression": {
                             "type": "string",
                             "description": "The mathematical expression to calculate, such as '2 + 2'. The expression can contain numbers, operators (+, -, *, /), parentheses, and spaces.",

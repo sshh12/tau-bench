@@ -7,7 +7,7 @@ from tau_bench.envs.tool import Tool
 
 class ListAllAirports(Tool):
     @staticmethod
-    def invoke(data: Dict[str, Any]) -> str:
+    def invoke(data: Dict[str, Any], explanation: str) -> str:
         airports = [
             "SFO",
             "JFK",
@@ -63,8 +63,13 @@ class ListAllAirports(Tool):
                 "description": "List all airports and their cities.",
                 "parameters": {
                     "type": "object",
-                    "properties": {},
-                    "required": [],
+                    "properties": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
+                    },
+                    "required": ["explanation"],
                 },
             },
         }

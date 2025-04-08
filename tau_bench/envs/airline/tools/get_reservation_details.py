@@ -7,7 +7,7 @@ from tau_bench.envs.tool import Tool
 
 class GetReservationDetails(Tool):
     @staticmethod
-    def invoke(data: Dict[str, Any], reservation_id: str) -> str:
+    def invoke(data: Dict[str, Any], explanation: str, reservation_id: str) -> str:
         reservations = data["reservations"]
         if reservation_id in reservations:
             return json.dumps(reservations[reservation_id])
@@ -23,6 +23,10 @@ class GetReservationDetails(Tool):
                 "parameters": {
                     "type": "object",
                     "properties": {
+                        "explanation": {
+                            "description": "One sentence explanation as to why this tool is being used, and how it contributes to the goal. ALWAYS provide this field first.",
+                            "type": "string",
+                        },
                         "reservation_id": {
                             "type": "string",
                             "description": "The reservation id, such as '8JX2WO'.",
