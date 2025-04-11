@@ -19,13 +19,11 @@ class GetUserDetails(Tool):
             "type": "function",
             "function": {
                 "name": "get_user_details",
-                "description": "Get the details of an user, including their reservations.",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "user_id": {
                             "type": "string",
-                            "description": "The user id, such as 'sara_doe_496'.",
                         },
                     },
                     "required": ["user_id"],

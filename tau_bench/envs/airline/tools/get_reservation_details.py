@@ -19,13 +19,11 @@ class GetReservationDetails(Tool):
             "type": "function",
             "function": {
                 "name": "get_reservation_details",
-                "description": "Get the details of a reservation.",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "reservation_id": {
                             "type": "string",
-                            "description": "The reservation id, such as '8JX2WO'.",
                         },
                     },
                     "required": ["reservation_id"],

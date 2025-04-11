@@ -20,13 +20,11 @@ class Calculate(Tool):
             "type": "function",
             "function": {
                 "name": "calculate",
-                "description": "Calculate the result of a mathematical expression.",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "expression": {
                             "type": "string",
-                            "description": "The mathematical expression to calculate, such as '2 + 2'. The expression can contain numbers, operators (+, -, *, /), parentheses, and spaces.",
                         },
                     },
                     "required": ["expression"],

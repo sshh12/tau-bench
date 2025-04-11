@@ -33,17 +33,14 @@ class SendCertificate(Tool):
             "type": "function",
             "function": {
                 "name": "send_certificate",
-                "description": "Send a certificate to a user. Be careful!",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "user_id": {
                             "type": "string",
-                            "description": "The ID of the user to book the reservation, such as 'sara_doe_496'.",
                         },
                         "amount": {
                             "type": "number",
-                            "description": "Certificate amount to send.",
                         },
                     },
                     "required": ["user_id", "amount"],

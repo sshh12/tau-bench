@@ -60,7 +60,6 @@ class ListAllAirports(Tool):
             "type": "function",
             "function": {
                 "name": "list_all_airports",
-                "description": "List all airports and their cities.",
                 "parameters": {
                     "type": "object",
                     "properties": {},
