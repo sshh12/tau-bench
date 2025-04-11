@@ -137,7 +137,7 @@ class UpdateReservationFlights(Tool):
                             "description": "The payment id stored in user profile, such as 'credit_card_7815826', 'gift_card_7815826', 'certificate_7815826'.",
                         },
                     },
-                    "required": ["reservation_id", "cabin", "flights", "payment_id"],
+                    "required": ["explanation", "reservation_id", "cabin", "flights", "payment_id"],
                 },
             },
         }

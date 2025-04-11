@@ -214,6 +214,7 @@ class BookReservation(Tool):
                         },
                     },
                     "required": [
+                        "explanation",
                         "user_id",
                         "origin",
                         "destination",

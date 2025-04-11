@@ -72,7 +72,7 @@ class SearchOnestopFlight(Tool):
                             "description": "The date of the flight in the format 'YYYY-MM-DD', such as '2024-05-01'.",
                         },
                     },
-                    "required": ["origin", "destination", "date"],
+                    "required": ["explanation", "origin", "destination", "date"],
                 },
             },
         }

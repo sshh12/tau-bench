@@ -33,7 +33,7 @@ class Calculate(Tool):
                             "description": "The mathematical expression to calculate, such as '2 + 2'. The expression can contain numbers, operators (+, -, *, /), parentheses, and spaces.",
                         },
                     },
-                    "required": ["expression"],
+                    "required": ["explanation", "expression"],
                 },
             },
         }

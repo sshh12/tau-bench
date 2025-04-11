@@ -33,6 +33,7 @@ class TransferToHumanAgents(Tool):
                         },
                     },
                     "required": [
+                        "explanation",
                         "summary"
                     ],
                 },

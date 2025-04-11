@@ -63,7 +63,7 @@ class UpdateReservationPassengers(Tool):
                             },
                         },
                     },
-                    "required": ["reservation_id", "passengers"],
+                    "required": ["explanation", "reservation_id", "passengers"],
                 },
             },
         }

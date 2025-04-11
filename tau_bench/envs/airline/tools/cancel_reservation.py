@@ -49,7 +49,7 @@ class CancelReservation(Tool):
                             "description": "The reservation ID, such as 'ZFA04Y'.",
                         },
                     },
-                    "required": ["reservation_id"],
+                    "required": ["explanation", "reservation_id"],
                 },
             },
         }

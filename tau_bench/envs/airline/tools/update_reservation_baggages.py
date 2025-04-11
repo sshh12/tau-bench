@@ -79,6 +79,7 @@ class UpdateReservationBaggages(Tool):
                         },
                     },
                     "required": [
+                        "explanation",
                         "reservation_id",
                         "total_baggages",
                         "nonfree_baggages",

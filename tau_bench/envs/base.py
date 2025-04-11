@@ -133,7 +133,7 @@ class Env(object):
         self.data = self.data_load_func()
         for action in self.task.actions:
             if action.name not in self.terminate_tools:
-                self.step(action)
+                action = Action(name=action.name, kwargs={"explanation": "", **action.kwargs})
         gt_data_hash = self.get_data_hash()
         info = RewardActionInfo(
             r_actions=data_hash == gt_data_hash, gt_data_hash=gt_data_hash

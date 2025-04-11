@@ -32,7 +32,7 @@ class GetUserDetails(Tool):
                             "description": "The user id, such as 'sara_doe_496'.",
                         },
                     },
-                    "required": ["user_id"],
+                    "required": ["explanation", "user_id"],
                 },
             },
         }

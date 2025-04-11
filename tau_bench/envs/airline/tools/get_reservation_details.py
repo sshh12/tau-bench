@@ -32,7 +32,7 @@ class GetReservationDetails(Tool):
                             "description": "The reservation id, such as '8JX2WO'.",
                         },
                     },
-                    "required": ["reservation_id"],
+                    "required": ["explanation", "reservation_id"],
                 },
             },
         }

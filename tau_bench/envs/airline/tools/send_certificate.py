@@ -51,7 +51,7 @@ class SendCertificate(Tool):
                             "description": "Certificate amount to send.",
                         },
                     },
-                    "required": ["user_id", "amount"],
+                    "required": ["explanation", "user_id", "amount"],
                 },
             },
         }
