@@ -52,7 +52,7 @@ class UpdateReservationBaggages(Tool):
             "type": "function",
             "function": {
                 "name": "update_reservation_baggages",
-                "description": "Update the baggage information of a reservation.",
+                "description": "Modifies the baggage allowance for an existing reservation. Use this tool when a user wants to add or remove checked bags from their booking. The tool calculates any additional fees for extra baggage and processes the payment. Total_baggages represents all bags (both free and paid), while nonfree_baggages specifies how many exceed the free allowance. Membership status may affect baggage fees and allowances.",
                 "parameters": {
                     "type": "object",
                     "properties": {

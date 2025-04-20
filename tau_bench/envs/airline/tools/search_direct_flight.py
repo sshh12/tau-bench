@@ -27,7 +27,7 @@ class SearchDirectFlight(Tool):
             "type": "function",
             "function": {
                 "name": "search_direct_flight",
-                "description": "Search direct flights between two cities on a specific date.",
+                "description": "Searches for non-stop flights between specified origin and destination airports on a particular date. Use this tool when the user wants to find direct flight options without any stopovers. Results include flight details such as flight numbers, departure/arrival times, duration, available seats by cabin class, and pricing. Critical for flight booking and reservation modifications.",
                 "parameters": {
                     "type": "object",
                     "properties": {

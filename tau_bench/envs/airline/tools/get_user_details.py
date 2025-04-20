@@ -19,7 +19,7 @@ class GetUserDetails(Tool):
             "type": "function",
             "function": {
                 "name": "get_user_details",
-                "description": "Get the details of an user, including their reservations.",
+                "description": "Retrieves all profile information about a user, including personal details, membership status, payment methods, available gift cards/certificates, and a list of all their reservations. Use this tool when you need comprehensive information about a user's profile or to verify their identity, payment options, or booking history.",
                 "parameters": {
                     "type": "object",
                     "properties": {

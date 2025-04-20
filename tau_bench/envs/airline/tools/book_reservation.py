@@ -109,7 +109,7 @@ class BookReservation(Tool):
             "type": "function",
             "function": {
                 "name": "book_reservation",
-                "description": "Book a reservation.",
+                "description": "Creates a new flight reservation for one or more passengers. Use this tool when the user wants to book new flights. Requires complete information about the flight itinerary, passenger details, cabin class, baggage requirements, and payment methods. The total payment amount must match the calculated price.",
                 "parameters": {
                     "type": "object",
                     "properties": {

@@ -18,7 +18,7 @@ class TransferToHumanAgents(Tool):
             "type": "function",
             "function": {
                 "name": "transfer_to_human_agents",
-                "description": "Transfer the user to a human agent, with a summary of the user's issue. Only transfer if the user explicitly asks for a human agent, or if the user's issue cannot be resolved by the agent with the available tools.",
+                "description": "Escalates the conversation to a human customer service agent. Only use this tool in specific circumstances: (1) when the user explicitly requests to speak with a human, (2) when you encounter complex policy exceptions that require human approval, (3) when handling unusual reservation changes that you cannot process with your tools, or (4) when troubleshooting technical issues with the booking system. Always include a detailed summary of the user's issue and what has been attempted so far.",
                 "parameters": {
                     "type": "object",
                     "properties": {

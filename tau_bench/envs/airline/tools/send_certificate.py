@@ -33,7 +33,7 @@ class SendCertificate(Tool):
             "type": "function",
             "function": {
                 "name": "send_certificate",
-                "description": "Send a certificate to a user. Be careful!",
+                "description": "Issues a travel certificate to a user as compensation or goodwill gesture. Use this tool only when authorized to provide compensation for service issues, flight delays, or as part of a resolution to a customer complaint. The certificate will be added to the user's payment methods and can be used for future bookings. Use with discretion as it has financial implications.",
                 "parameters": {
                     "type": "object",
                     "properties": {

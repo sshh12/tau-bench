@@ -27,7 +27,7 @@ class UpdateReservationPassengers(Tool):
             "type": "function",
             "function": {
                 "name": "update_reservation_passengers",
-                "description": "Update the passenger information of a reservation.",
+                "description": "Changes passenger information for an existing reservation, such as correcting names or updating traveler details. Use this tool when a user needs to update passenger information without changing flights. Note that the number of passengers must remain the same - you cannot add or remove passengers with this tool. All passenger information must be provided, even if only changing details for some passengers.",
                 "parameters": {
                     "type": "object",
                     "properties": {

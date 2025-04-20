@@ -51,7 +51,7 @@ class SearchOnestopFlight(Tool):
             "type": "function",
             "function": {
                 "name": "search_onestop_flight",
-                "description": "Search direct flights between two cities on a specific date.",
+                "description": "Searches for connecting flights between specified origin and destination airports with exactly one stopover. Use this tool when direct flights aren't available or when the user prefers connection options. Results include paired flight segments with details for each leg, including connection times. Useful for finding alternative routes or more economical options compared to direct flights.",
                 "parameters": {
                     "type": "object",
                     "properties": {

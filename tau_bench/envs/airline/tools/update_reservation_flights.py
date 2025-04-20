@@ -93,7 +93,7 @@ class UpdateReservationFlights(Tool):
             "type": "function",
             "function": {
                 "name": "update_reservation_flights",
-                "description": "Update the flight information of a reservation.",
+                "description": "Modifies flight details for an existing reservation, including changing flights, dates, or upgrading/downgrading cabin class. Use this tool when a user wants to alter their itinerary while keeping the same reservation. The tool requires the complete list of flights for the updated reservation (both changed and unchanged segments), calculates any price differences, and processes payment. Note that basic economy tickets may have restrictions on changes.",
                 "parameters": {
                     "type": "object",
                     "properties": {

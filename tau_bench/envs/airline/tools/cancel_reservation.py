@@ -35,7 +35,7 @@ class CancelReservation(Tool):
             "type": "function",
             "function": {
                 "name": "cancel_reservation",
-                "description": "Cancel the whole reservation.",
+                "description": "Cancels an entire reservation and processes refunds according to eligibility. Use this tool when the user wants to cancel their reservation completely. The tool will automatically handle refund processing based on the original payment methods used for the booking. Returns details of the canceled reservation.",
                 "parameters": {
                     "type": "object",
                     "properties": {

@@ -19,7 +19,7 @@ class GetReservationDetails(Tool):
             "type": "function",
             "function": {
                 "name": "get_reservation_details",
-                "description": "Get the details of a reservation.",
+                "description": "Retrieves comprehensive information about a specific reservation using its ID. Use this tool to look up flight details, passenger information, payment history, baggage allowance, and insurance status for an existing reservation. Helpful when assessing modification options or responding to user inquiries about their booking.",
                 "parameters": {
                     "type": "object",
                     "properties": {

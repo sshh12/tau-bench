@@ -20,7 +20,7 @@ class Calculate(Tool):
             "type": "function",
             "function": {
                 "name": "calculate",
-                "description": "Calculate the result of a mathematical expression.",
+                "description": "Evaluates mathematical expressions for price calculations, refund amounts, or other numerical computations. Use this tool when you need to perform arithmetic operations to determine costs, differences, or totals. Supports basic operators (+, -, *, /), parentheses, and decimal numbers.",
                 "parameters": {
                     "type": "object",
                     "properties": {

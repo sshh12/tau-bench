@@ -15,7 +15,7 @@ class Think(Tool):
             "type": "function",
             "function": {
                 "name": "think",
-                "description": "Use the tool to think about something. It will not obtain new information or change the database, but just append the thought to the log. Use it when complex reasoning is needed.",
+                "description": "An internal reasoning tool that allows structured analysis of complex situations without affecting the reservation system. Use this tool to organize your thoughts when planning multi-step processes, comparing flight options, calculating complex price differences, or working through policy-based decisions. The thought content is logged but not shown to users, making it ideal for breaking down complex tasks or reasoning through edge cases.",
                 "parameters": {
                     "type": "object",
                     "properties": {

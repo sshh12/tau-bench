@@ -60,7 +60,7 @@ class ListAllAirports(Tool):
             "type": "function",
             "function": {
                 "name": "list_all_airports",
-                "description": "List all airports and their cities.",
+                "description": "Returns a complete list of all airports served by the airline, with their IATA codes and corresponding city names. Use this tool when you need to verify airport codes, check if a specific destination is available, or present the user with all flight options. Returns a mapping of airport codes to city names.",
                 "parameters": {
                     "type": "object",
                     "properties": {},
