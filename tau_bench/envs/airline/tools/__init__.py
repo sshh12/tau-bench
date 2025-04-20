@@ -3,6 +3,7 @@
 from .book_reservation import BookReservation
 from .calculate import Calculate
 from .cancel_reservation import CancelReservation
+from .checklist import Checklist
 from .get_reservation_details import GetReservationDetails
 from .get_user_details import GetUserDetails
 from .list_all_airports import ListAllAirports
@@ -19,6 +20,7 @@ ALL_TOOLS = [
     BookReservation,
     Calculate,
     CancelReservation,
+    Checklist,
     GetReservationDetails,
     GetUserDetails,
     ListAllAirports,
