@@ -1,7 +1,7 @@
 # Copyright Sierra
 
 import json
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 from tau_bench.envs.tool import Tool
 
 
@@ -13,7 +13,11 @@ class UpdateReservationBaggages(Tool):
         total_baggages: int,
         nonfree_baggages: int,
         payment_id: str,
+        actually_cancel: Optional[str] = None,
     ) -> str:
+        if actually_cancel:
+            return f"Operation cancelled: {actually_cancel}"
+            
         users, reservations = data["users"], data["reservations"]
         if reservation_id not in reservations:
             return "Error: reservation not found"
@@ -71,6 +75,10 @@ class UpdateReservationBaggages(Tool):
                         "payment_id": {
                             "type": "string",
                             "description": "The payment id stored in user profile, such as 'credit_card_7815826', 'gift_card_7815826', 'certificate_7815826'.",
+                        },
+                        "actually_cancel": {
+                            "type": "string",
+                            "description": "This cancels the effect of this tool and should be filled out if after preparing the tool call the agent doesn't want to actually continue with the baggage update. Provide a reason for cancellation.",
                         },
                     },
                     "required": [

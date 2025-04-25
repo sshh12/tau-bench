@@ -1,6 +1,6 @@
 # Copyright Sierra
 
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 from tau_bench.envs.tool import Tool
 
 
@@ -10,7 +10,11 @@ class SendCertificate(Tool):
         data: Dict[str, Any],
         user_id: str,
         amount: int,
+        actually_cancel: Optional[str] = None,
     ) -> str:
+        if actually_cancel:
+            return f"Operation cancelled: {actually_cancel}"
+            
         users = data["users"]
         if user_id not in users:
             return "Error: user not found"
@@ -44,6 +48,10 @@ class SendCertificate(Tool):
                         "amount": {
                             "type": "number",
                             "description": "Certificate amount to send.",
+                        },
+                        "actually_cancel": {
+                            "type": "string",
+                            "description": "This cancels the effect of this tool and should be filled out if after preparing the tool call the agent doesn't want to actually continue with sending the certificate. Provide a reason for cancellation.",
                         },
                     },
                     "required": ["user_id", "amount"],

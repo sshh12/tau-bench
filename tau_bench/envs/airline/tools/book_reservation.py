@@ -2,7 +2,7 @@
 
 import json
 from copy import deepcopy
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from tau_bench.envs.tool import Tool
 
 
@@ -21,7 +21,11 @@ class BookReservation(Tool):
         total_baggages: int,
         nonfree_baggages: int,
         insurance: str,
+        actually_cancel: Optional[str] = None,
     ) -> str:
+        if actually_cancel:
+            return f"Operation cancelled: {actually_cancel}"
+            
         reservations, users = data["reservations"], data["users"]
         if user_id not in users:
             return "Error: user not found"
@@ -206,6 +210,10 @@ class BookReservation(Tool):
                         "insurance": {
                             "type": "string",
                             "enum": ["yes", "no"],
+                        },
+                        "actually_cancel": {
+                            "type": "string",
+                            "description": "This cancels the effect of this tool and should be filled out if after preparing the tool call the agent doesn't want to actually continue with booking the reservation. Provide a reason for cancellation.",
                         },
                     },
                     "required": [

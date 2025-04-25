@@ -1,7 +1,7 @@
 # Copyright Sierra
 
 import json
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from tau_bench.envs.tool import Tool
 
 
@@ -11,11 +11,16 @@ class UpdateReservationPassengers(Tool):
         data: Dict[str, Any],
         reservation_id: str,
         passengers: List[Dict[str, Any]],
+        actually_cancel: Optional[str] = None,
     ) -> str:
         reservations = data["reservations"]
         if reservation_id not in reservations:
             return "Error: reservation not found"
         reservation = reservations[reservation_id]
+        
+        if actually_cancel:
+            return f"Operation cancelled: {actually_cancel}"
+            
         if len(passengers) != len(reservation["passengers"]):
             return "Error: number of passengers does not match"
         reservation["passengers"] = passengers
@@ -47,7 +52,7 @@ class UpdateReservationPassengers(Tool):
                                     },
                                     "last_name": {
                                         "type": "string",
-                                        "description": "The last name of the passenger, such as 'Brown'.",
+                                        "description": "The last name of the passenger, such as 'Noah'.",
                                     },
                                     "dob": {
                                         "type": "string",
@@ -56,6 +61,10 @@ class UpdateReservationPassengers(Tool):
                                 },
                                 "required": ["first_name", "last_name", "dob"],
                             },
+                        },
+                        "actually_cancel": {
+                            "type": "string",
+                            "description": "This cancels the effect of this tool and should be filled out if after preparing the tool call the agent doesn't want to actually continue with the passenger update. Provide a reason for cancellation.",
                         },
                     },
                     "required": ["reservation_id", "passengers"],

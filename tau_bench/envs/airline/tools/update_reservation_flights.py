@@ -2,7 +2,7 @@
 
 import json
 from copy import deepcopy
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from tau_bench.envs.tool import Tool
 
 
@@ -14,7 +14,11 @@ class UpdateReservationFlights(Tool):
         cabin: str,
         flights: List[Dict[str, Any]],
         payment_id: str,
+        actually_cancel: Optional[str] = None,
     ) -> str:
+        if actually_cancel:
+            return f"Operation cancelled: {actually_cancel}"
+            
         users, reservations = data["users"], data["reservations"]
         if reservation_id not in reservations:
             return "Error: reservation not found"
@@ -130,6 +134,10 @@ class UpdateReservationFlights(Tool):
                         "payment_id": {
                             "type": "string",
                             "description": "The payment id stored in user profile, such as 'credit_card_7815826', 'gift_card_7815826', 'certificate_7815826'.",
+                        },
+                        "actually_cancel": {
+                            "type": "string",
+                            "description": "This cancels the effect of this tool and should be filled out if after preparing the tool call the agent doesn't want to actually continue with the flight update. Provide a reason for cancellation.",
                         },
                     },
                     "required": ["reservation_id", "cabin", "flights", "payment_id"],
