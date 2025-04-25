@@ -6,9 +6,9 @@ FOLDER_PATH = os.path.dirname(__file__)
 
 with open(os.path.join(FOLDER_PATH, "wiki.md"), "r") as f:
     WIKI = f.read() + "\n\n" + """
-## Verify Plan
+## Policy Advice
 
-Before taking any write action (send cert, update, etc). Verify your plan with the verify plan tool.
+Before taking any action (sending cert, updating data, etc), you MUST seek policy advice using the policy_advice tool.
 
-Provide detailed context on the situation, the user, and what you plan to do.
+Provide detailed context about the user's situation, request, or problem to receive guidance on relevant policies.
 """.strip()
