@@ -14,6 +14,7 @@ from .transfer_to_human_agents import TransferToHumanAgents
 from .update_reservation_baggages import UpdateReservationBaggages
 from .update_reservation_flights import UpdateReservationFlights
 from .update_reservation_passengers import UpdateReservationPassengers
+from .verify_plan import VerifyPlan
 
 ALL_TOOLS = [
     BookReservation,
@@ -30,4 +31,5 @@ ALL_TOOLS = [
     UpdateReservationBaggages,
     UpdateReservationFlights,
     UpdateReservationPassengers,
+    VerifyPlan,
 ]
